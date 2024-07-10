@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone.ico" type="image/x-icon">
+    <title>The Coolest Quizzz</title>
+    <link rel="stylesheet" href="amigodo.css">
+</head>
+<body>
+
+    <div id="container">
+        
+        <div id="topoTitulo">
+            <p>Football Quiz</p>
+        </div>
+
+        <div id="meioPerguntas">
+            <label for="pergunta1"><h1>Pergunta 1</h1></label>
+            <label for="pergunta2"><h1>Pergunta 2</h1></label>
+            <label for="pergunta3"><h1>Pergunta 3</h1></label>
+        </div>
+        
+        <div id="meioLabels">
+            <label for="pergunta1">Qual é o maior jogador da historia do futebol?</label>
+            <label for="pergunta2">Quem é o jogador com mais titulos na historia?</label>
+            <label for="pergunta3">Qual é o pais que mais ganhou copas do mundo?</label>
+
+        </div>
+
+        <div id="meioSelects">
+
+            <div class="Planet">
+                <select id="selectMenu">    
+                    <option value="0">Selecione a resposta</option>  
+                    <option value="1">Garrincha</option>                    
+                    <option value="2">Lionel Messi</option>
+                    <option value="3">Cristiano Ronaldo</option>
+                    <option value="4">Pelé</option>
+                    
+                </select>
+            </div>
+
+            <div class="Autor">
+                <select id="pergunta2" name="pergunta2">
+                    <option value="0">Selecione a resposta</option>
+                    <option value="1">Daniel alves</option>
+                    <option value="2">Lionel Messi</option>
+                    <option value="3">Johan Cruijff</option>
+                    <option value="4">Cristiano Ronaldo</option>
+                </select>
+            </div>
+
+            <div class="Elemento">
+                <select id="pergunta3" name="pergunta3">
+                    <option value="0">Selecione a resposta</option>
+                    <option value="1">Argentina</option>
+                    <option value="2">Alemanha</option>
+                    <option value="3">Brasil</option>
+                    <option value="4">Italia</option>
+                </select>
+            </div>
+
+
+        </div>
+
+        <div id="baixoResultado">
+                <button type="button" onclick="avaliarRespostas()">Verificar Respostas</button>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="criasdo.js"></script>
+
+</body>
+</html>
